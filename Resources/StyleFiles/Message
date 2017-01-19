@@ -1,0 +1,11 @@
+QWidget
+{
+    background-color: #29303D;
+}
+
+
+QLabel
+{
+    font-size: 14pt;
+    color: white;
+}

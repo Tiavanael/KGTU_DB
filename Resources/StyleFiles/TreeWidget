@@ -1,0 +1,34 @@
+QTreeView
+{
+    border: 1px solid #515C70;
+    color: white;
+    padding: 10px;
+    padding-left: 3px;
+}
+
+QTreeView::item:has-children
+{
+    color: #5288A3;
+}
+
+QTreeView::item:selected
+{
+    background: rgba(255, 71, 9, 210);
+    border: 0px;
+    border-radius: 0px;
+    padding: -1px;
+    color: #29303D
+}
+
+QTreeView::item:!selected:hover
+{
+    background: rgba(255, 71, 9, 40);
+    border: 0px;
+    border-radius: 0px;
+    padding: -1px;
+}
+
+QTreeView::branch
+{
+    background: #29303D;
+}
